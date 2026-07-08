@@ -205,7 +205,7 @@ silent_fov_circle.NumSides = 64
 silent_fov_circle.Filled = false
 
 local Window = Library:Window({
-    Name = "@ow6c",
+    Name = "@unit.win",
     GradientTitle = {
         Enabled = false,
         Start = Color3.fromRGB(255, 255, 255),
@@ -215,7 +215,7 @@ local Window = Library:Window({
     }
 })
 
-local Watermark = Library:Watermark("@ow6c", {"77974153657891", Color3.fromRGB(149, 255, 139)})
+local Watermark = Library:Watermark("@unit.win", {"77974153657891", Color3.fromRGB(149, 255, 139)})
 Watermark:SetVisibility(false)
 local KeybindList = Library:KeybindList()
 KeybindList:SetVisibility(false)
